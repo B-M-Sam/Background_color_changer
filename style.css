@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #485460;
+  transition: background-color 700ms linear;
+}
+#prev {
+  text-align: center;
+  height: min-content;
+  background-color: #1e272e;
+  color: #bdc3c7;
+  padding: 10px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #1e272e;
+}
+#title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  border: #485460 1px groove;
+  padding: 10px;
+  border-radius: 10px;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #bdc3c7;
+}
+#input01 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  display: inline-block;
+  border: black 2px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #bdc3c7;
+  color: #1e272e;
+  font-weight: 600;
+}
+button {
+  width: 235px;
+  height: min-content;
+  display: inline-block;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ecf0f1;
+  text-align: center;
+  background-color: #1e272e;
+  border: #ecf0f1 3px inset;
+  border-radius: 15px;
+}
+button:hover {
+  opacity: 0.5;
+  color: #ecf0f1;
+}
+button:active {
+  transform: translateY(4px);
+}
+table {
+  height: 70px;
+  width: 500px;
+}
+td {
+  cursor: wait;
+  border-radius: 10px;
+}
+td:hover {
+  opacity: 0.5;
+}
+#input02 {
+  cursor: pointer;
+  width: 235px;
+  height: 50px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: black 2px solid;
+}
+footer {
+  height: max-content;
+  margin-top: 780px;
+  position: inline-block;
+  text-align: center;
+  padding: 10px;
+  background: #1e272e;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: #bdc3c7;
+}
