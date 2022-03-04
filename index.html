@@ -1,0 +1,50 @@
+<!-- This is a color changer website -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Background-color Changer</title>
+  <!--StyleSheet-->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--Color Review-->
+  <div id="prev">#2f3542</div>
+  <!--Container-->
+  <div id="container">
+    <h2 id="title">Background-color Changer</h2>
+    <!--Search-->
+    <h2>Enter any type of color</h2>
+    <input type="text" id="input01" placeholder="Ex: red, #060A1F, rgb(9,132,227)" />
+    <!--Random Color-->
+    <h2>Random color</h2>
+    <button onclick="getNewColor();">Click Here</button>
+
+    <!--Mouse over-->
+    <h2>Hover the Mouse</h2>
+    <table>
+      <tr>
+        <td id="a" style="background-color: #ff6347"></td>
+        <td id="b" style="background-color: #0984e3"></td>
+        <td id="c" style="background-color: #00b894"></td>
+        <td id="d" style="background-color: #6c5ce7"></td>
+      </tr>
+    </table>
+
+    <!--Color Box-->
+    <h2>Choose Color</h2>
+    <input type="color" id="input02" value="#6d214f" />
+  </div>
+  <footer>
+    <a href="https://www.youtube.com/watch?v=aHAuo6W8kRE">Learn to Code then click here</a>
+  </footer>
+  <!--Script-->
+  <script src="script.js"></script>
+</body>
+
+</html>
